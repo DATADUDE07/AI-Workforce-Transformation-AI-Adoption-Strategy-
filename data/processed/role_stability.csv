@@ -1,0 +1,30 @@
+role_id,role_name,function,AAPS,baseline_rank,max_rank_move,avg_rank_move,stability
+ENG-001,Software Engineer,Engineering,0.7051,1,2,0.75,Stable
+CS-001,Customer Support Agent (Tier 1),Customer Success,0.6884,2,2,0.67,Stable
+ENG-002,QA / Test Engineer,Engineering,0.6498,3,1,0.42,Stable
+DAT-003,BI / Reporting Analyst,Data & Analytics,0.6188,4,2,0.75,Stable
+FIN-002,Accounts Payable / Receivable Clerk,Finance,0.6047,5,3,1.0,Stable
+DAT-001,Data Analyst,Data & Analytics,0.5736,6,2,1.0,Stable
+ITO-001,IT Help Desk / Support,IT Operations,0.5731,7,2,0.92,Stable
+PRD-003,Technical Writer,Product,0.5449,8,3,0.83,Stable
+MKT-001,Content Writer / Copywriter,Marketing,0.5371,9,5,1.5,Sensitive
+SAL-002,Sales Development Rep (SDR),Sales,0.5308,10,4,1.67,Sensitive
+MKT-002,Digital Marketing Analyst,Marketing,0.5239,11,3,0.83,Stable
+SAL-003,Sales Operations Analyst,Sales,0.5197,12,5,0.92,Sensitive
+HR-003,HR Operations / Admin,Human Resources,0.4955,13,4,1.83,Sensitive
+FIN-003,Payroll Specialist,Finance,0.4886,14,4,1.75,Sensitive
+ENG-003,DevOps / Platform Engineer,Engineering,0.4778,15,2,0.92,Stable
+DAT-002,Data Scientist,Data & Analytics,0.469,16,5,1.83,Sensitive
+CS-003,Technical Support Specialist (Tier 2),Customer Success,0.4473,17,2,0.58,Stable
+FIN-001,Financial Analyst,Finance,0.3924,18,1,0.33,Stable
+ITO-002,Systems / Network Administrator,IT Operations,0.3882,19,1,0.33,Stable
+PRD-002,UX / Product Designer,Product,0.3632,20,2,0.33,Stable
+HR-002,Recruiter / Talent Acquisition,Human Resources,0.3428,21,1,0.33,Stable
+CS-002,Customer Success Manager,Customer Success,0.3132,22,2,0.67,Stable
+SAL-001,Account Executive (Enterprise),Sales,0.3049,23,3,1.17,Stable
+LEG-001,Contract / Paralegal Specialist,Legal,0.2896,24,2,1.42,Stable
+FIN-004,FP&A Manager,Finance,0.2856,25,4,0.75,Sensitive
+MKT-003,Brand / Marketing Manager,Marketing,0.2754,26,3,0.67,Stable
+PRD-001,Product Manager,Product,0.2336,27,1,0.08,Stable
+HR-001,HR Business Partner,Human Resources,0.2115,28,1,0.08,Stable
+LEG-002,Corporate Counsel,Legal,0.065,29,0,0.0,Stable

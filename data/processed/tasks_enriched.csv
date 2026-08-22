@@ -1,0 +1,146 @@
+task_id,role_id,task_name,task_category,time_pct,automatable,augmentable,automation_confidence,ai_tool_available,notes
+TSK-001,ENG-001,Code development & review,Creative,0.4,False,True,0.35,True,AI assists but human judgment essential for architecture
+TSK-002,ENG-001,Automated test case generation,Analysis,0.15,True,True,0.72,True,"GitHub Copilot, Codium etc. high confidence"
+TSK-003,ENG-001,Bug triage & documentation,Data entry,0.15,True,True,0.68,True,Structured pattern recognition
+TSK-004,ENG-001,Code refactoring & optimisation,Creative,0.15,False,True,0.45,True,"AI suggests, human decides"
+TSK-005,ENG-001,System design & architecture review,Decision,0.15,False,False,0.15,False,Requires deep contextual judgment
+TSK-006,ENG-002,Test case creation,Analysis,0.25,True,True,0.7,True,Highly structured; AI tools mature
+TSK-007,ENG-002,Automated regression test execution,Data entry,0.3,True,False,0.88,True,Fully automatable with CI/CD + AI
+TSK-008,ENG-002,Defect logging & triage,Data entry,0.2,True,True,0.75,True,Pattern-based classification
+TSK-009,ENG-002,User acceptance testing coordination,Communication,0.15,False,True,0.3,False,Stakeholder interaction required
+TSK-010,ENG-002,Quality metrics reporting,Analysis,0.1,True,False,0.82,True,Structured reporting
+TSK-011,ENG-003,CI/CD pipeline management,Analysis,0.3,True,True,0.65,True,Increasingly automated with AIOps
+TSK-012,ENG-003,Infrastructure provisioning (IaC),Creative,0.25,False,True,0.5,True,"AI writes templates, human reviews"
+TSK-013,ENG-003,Incident response & RCA,Decision,0.2,False,True,0.4,True,"AI diagnoses, human decides"
+TSK-014,ENG-003,Security patching & compliance checks,Compliance,0.15,True,True,0.7,True,Rule-based scanning automatable
+TSK-015,ENG-003,Capacity planning & monitoring,Analysis,0.1,True,True,0.75,True,ML-based predictive monitoring
+TSK-016,DAT-001,Data extraction & cleaning,Data entry,0.3,True,True,0.8,True,High-confidence automation
+TSK-017,DAT-001,Dashboard / report creation,Analysis,0.25,True,True,0.72,True,AI-driven BI tools maturing
+TSK-018,DAT-001,Ad-hoc analysis & insight generation,Analysis,0.25,False,True,0.45,True,Human judgment for context
+TSK-019,DAT-001,Data quality & validation,Compliance,0.1,True,True,0.78,True,Rule-based + ML anomaly detection
+TSK-020,DAT-001,Stakeholder communication & presentation,Communication,0.1,False,True,0.2,False,Relationship and judgment
+TSK-021,DAT-002,Model development & training,Creative,0.35,False,True,0.35,True,AutoML assists but human critical
+TSK-022,DAT-002,Feature engineering,Analysis,0.2,False,True,0.45,True,Domain knowledge essential
+TSK-023,DAT-002,Data exploration & EDA,Analysis,0.2,True,True,0.65,True,AI speeds up analysis
+TSK-024,DAT-002,Model evaluation & deployment,Compliance,0.15,False,True,0.4,True,Governance requires human sign-off
+TSK-025,DAT-002,Research & literature review,Analysis,0.1,True,True,0.6,True,AI summarisation tools effective
+TSK-026,DAT-003,Scheduled report generation,Data entry,0.35,True,False,0.9,True,Highly repetitive; fully automatable
+TSK-027,DAT-003,Dashboard maintenance & updates,Analysis,0.25,True,True,0.78,True,AI-driven BI platforms
+TSK-028,DAT-003,Data validation & reconciliation,Compliance,0.2,True,True,0.82,True,Rule-based
+TSK-029,DAT-003,Ad-hoc reporting requests,Analysis,0.12,False,True,0.5,True,Natural language to SQL tools
+TSK-030,DAT-003,User training on BI tools,Communication,0.08,False,True,0.25,False,Interpersonal
+TSK-031,FIN-001,Financial modelling & forecasting,Analysis,0.3,False,True,0.45,True,AI enhances models; human oversees
+TSK-032,FIN-001,Variance analysis & reporting,Analysis,0.25,True,True,0.7,True,Pattern-driven; AI can flag variances
+TSK-033,FIN-001,Budget preparation & tracking,Data entry,0.2,True,True,0.68,True,Structured process
+TSK-034,FIN-001,Regulatory & compliance reporting,Compliance,0.15,False,True,0.4,True,High regulatory stakes; human sign-off
+TSK-035,FIN-001,Executive financial presentations,Communication,0.1,False,True,0.25,True,Judgment and communication
+TSK-036,FIN-002,Invoice processing & data entry,Data entry,0.4,True,False,0.92,True,OCR + AI; high automation confidence
+TSK-037,FIN-002,Payment reconciliation,Data entry,0.25,True,False,0.88,True,Rule-based matching
+TSK-038,FIN-002,Vendor / customer query resolution,Customer,0.2,False,True,0.45,True,Chatbot for common queries
+TSK-039,FIN-002,Month-end close support,Compliance,0.1,True,True,0.72,True,Structured journal entries
+TSK-040,FIN-002,Audit documentation,Compliance,0.05,True,True,0.65,True,Document assembly
+TSK-041,FIN-003,Payroll calculation & processing,Data entry,0.45,True,False,0.9,True,Highly structured; minimal judgment
+TSK-042,FIN-003,Tax filing & compliance,Compliance,0.25,True,True,0.72,True,AI-driven payroll platforms handle this
+TSK-043,FIN-003,Employee query resolution,Customer,0.15,False,True,0.42,True,Chatbot handles FAQs
+TSK-044,FIN-003,Benefits administration,Data entry,0.1,True,True,0.75,True,HRIS automation
+TSK-045,FIN-003,Payroll audit & reconciliation,Compliance,0.05,True,True,0.68,True,Rule-based checks
+TSK-046,FIN-004,Strategic financial planning,Decision,0.3,False,True,0.2,True,AI provides scenarios; human decides
+TSK-047,FIN-004,Executive reporting & board prep,Communication,0.25,False,True,0.3,True,AI drafts; human refines
+TSK-048,FIN-004,KPI monitoring & business partnering,Analysis,0.25,False,True,0.4,True,AI flags anomalies
+TSK-049,FIN-004,Budget consolidation,Data entry,0.12,True,True,0.65,True,Structured aggregation
+TSK-050,FIN-004,Scenario / sensitivity modelling,Analysis,0.08,False,True,0.5,True,AI speeds up iteration
+TSK-051,HR-001,Employee relations & conflict resolution,Decision,0.3,False,False,0.08,False,Human judgment essential
+TSK-052,HR-001,Performance management coaching,Communication,0.25,False,True,0.15,True,AI provides data; human coaches
+TSK-053,HR-001,HR policy advisory & compliance,Compliance,0.2,False,True,0.35,True,AI retrieves policy; human advises
+TSK-054,HR-001,Workforce analytics reporting,Analysis,0.15,True,True,0.65,True,Structured HR reporting
+TSK-055,HR-001,Change management programmes,Communication,0.1,False,False,0.1,False,People-centric; human led
+TSK-056,HR-002,Resume screening & shortlisting,Data entry,0.3,True,True,0.78,True,ATS + AI screening tools mature
+TSK-057,HR-002,Candidate outreach & scheduling,Communication,0.25,True,True,0.72,True,Automated outreach tools
+TSK-058,HR-002,Interview coordination,Data entry,0.2,True,True,0.7,True,Calendar automation
+TSK-059,HR-002,Candidate evaluation & decision,Decision,0.15,False,True,0.25,True,Bias risk requires human oversight
+TSK-060,HR-002,Offer negotiation & onboarding,Communication,0.1,False,True,0.2,False,Relationship
+TSK-061,HR-003,Employee data entry & maintenance,Data entry,0.35,True,False,0.88,True,HRIS automation high confidence
+TSK-062,HR-003,Benefits enrolment processing,Data entry,0.25,True,False,0.82,True,Structured data
+TSK-063,HR-003,Compliance & audit support,Compliance,0.2,True,True,0.68,True,Checklist driven
+TSK-064,HR-003,Employee query handling (tier 1),Customer,0.12,True,True,0.72,True,HR chatbot
+TSK-065,HR-003,Reporting & document preparation,Data entry,0.08,True,False,0.8,True,Template automation
+TSK-066,SAL-001,Client relationship management,Customer,0.35,False,True,0.1,False,Human relationship essential
+TSK-067,SAL-001,Deal negotiation & closing,Decision,0.25,False,True,0.12,True,AI provides deal intel; human leads
+TSK-068,SAL-001,CRM data entry & opportunity tracking,Data entry,0.15,True,True,0.75,True,AI auto-logs calls/emails
+TSK-069,SAL-001,Proposal & contract preparation,Creative,0.15,False,True,0.45,True,AI drafts; human customises
+TSK-070,SAL-001,Pipeline & forecast reporting,Analysis,0.1,True,True,0.7,True,AI-driven CRM forecasting
+TSK-071,SAL-002,Prospecting & lead research,Data entry,0.3,True,True,0.78,True,AI lead scoring & enrichment
+TSK-072,SAL-002,Cold outreach (email/LinkedIn),Communication,0.3,True,True,0.72,True,AI personalization at scale
+TSK-073,SAL-002,Discovery calls,Customer,0.2,False,True,0.2,True,AI coaching in real time
+TSK-074,SAL-002,CRM logging & follow-up scheduling,Data entry,0.12,True,False,0.82,True,Conversational AI logging
+TSK-075,SAL-002,Meeting scheduling & coordination,Data entry,0.08,True,False,0.88,True,AI scheduling tools
+TSK-076,SAL-003,Sales data analysis & reporting,Analysis,0.35,True,True,0.75,True,BI tools + AI insights
+TSK-077,SAL-003,CRM data quality management,Data entry,0.25,True,False,0.8,True,AI data cleansing
+TSK-078,SAL-003,Sales process improvement,Analysis,0.2,False,True,0.4,True,Process mining tools
+TSK-079,SAL-003,Commission calculation & tracking,Data entry,0.12,True,False,0.88,True,Rule-based calculation
+TSK-080,SAL-003,Tool & platform administration,Analysis,0.08,True,True,0.6,True,AIOps
+TSK-081,CS-001,FAQ & common issue resolution,Customer,0.4,True,True,0.85,True,AI chatbots handle >60% of tier-1
+TSK-082,CS-001,Ticket logging & categorisation,Data entry,0.2,True,False,0.9,True,Auto-categorisation
+TSK-083,CS-001,Order / account updates,Data entry,0.2,True,False,0.88,True,RPA + AI
+TSK-084,CS-001,Complex issue escalation,Decision,0.1,False,True,0.25,True,AI routes; human resolves
+TSK-085,CS-001,Customer satisfaction follow-up,Communication,0.1,True,True,0.7,True,Automated CSAT surveys
+TSK-086,CS-002,Customer health monitoring & QBRs,Analysis,0.3,False,True,0.4,True,AI health scores; human presents
+TSK-087,CS-002,Renewal & expansion strategy,Decision,0.25,False,True,0.2,True,Relationship-dependent
+TSK-088,CS-002,Onboarding programme delivery,Communication,0.2,False,True,0.3,True,AI personalises; human delivers
+TSK-089,CS-002,Churn risk identification,Analysis,0.15,True,True,0.72,True,ML churn prediction
+TSK-090,CS-002,CRM updates & activity logging,Data entry,0.1,True,False,0.8,True,AI auto-logging
+TSK-091,CS-003,Advanced technical troubleshooting,Analysis,0.4,False,True,0.38,True,AI knowledge base; human solves
+TSK-092,CS-003,Known issue documentation,Data entry,0.2,True,True,0.72,True,AI drafts docs
+TSK-093,CS-003,Escalation to engineering,Communication,0.15,False,True,0.25,True,Judgment required
+TSK-094,CS-003,Log analysis & diagnostics,Analysis,0.15,True,True,0.68,True,AI log analysis
+TSK-095,CS-003,Customer communication & updates,Customer,0.1,False,True,0.3,True,AI drafts; human sends
+TSK-096,LEG-001,Contract review & redlining,Compliance,0.35,True,True,0.65,True,"Contract AI tools (Harvey, Kira)"
+TSK-097,LEG-001,Legal research & precedent analysis,Analysis,0.25,True,True,0.7,True,AI legal research tools
+TSK-098,LEG-001,Document management & filing,Data entry,0.2,True,False,0.85,True,Highly automatable
+TSK-099,LEG-001,Regulatory compliance tracking,Compliance,0.12,False,True,0.45,True,AI monitors; human interprets
+TSK-100,LEG-001,Due diligence support,Analysis,0.08,False,True,0.5,True,AI accelerates; human validates
+TSK-101,LEG-002,Legal strategy & risk advisory,Decision,0.35,False,True,0.12,False,Requires full judgment; high liability
+TSK-102,LEG-002,Contract negotiation,Decision,0.25,False,True,0.18,True,AI provides playbook; human negotiates
+TSK-103,LEG-002,Regulatory interpretation,Compliance,0.2,False,True,0.25,True,High liability; human essential
+TSK-104,LEG-002,Litigation support,Compliance,0.12,False,True,0.3,True,AI e-discovery; human argues
+TSK-105,LEG-002,Board & executive advisory,Communication,0.08,False,False,0.05,False,Senior judgment only
+TSK-106,ITO-001,Password reset & account unlocking,Data entry,0.25,True,False,0.95,True,Fully automatable with self-service
+TSK-107,ITO-001,Software installation & basic config,Data entry,0.25,True,True,0.8,True,Scripted automation
+TSK-108,ITO-001,Common technical issue resolution,Customer,0.25,True,True,0.72,True,AI chatbot deflection
+TSK-109,ITO-001,Ticket routing & triage,Data entry,0.15,True,False,0.88,True,AI classification
+TSK-110,ITO-001,Hardware/device provisioning,Data entry,0.1,False,True,0.35,False,Physical activity required
+TSK-111,ITO-002,Server & infrastructure monitoring,Analysis,0.3,True,True,0.78,True,AIOps monitoring tools
+TSK-112,ITO-002,Patch management,Data entry,0.25,True,False,0.82,True,Automated patch orchestration
+TSK-113,ITO-002,Network configuration & management,Creative,0.2,False,True,0.4,True,Intent-based networking emerging
+TSK-114,ITO-002,Security incident response,Decision,0.15,False,True,0.35,True,SOAR tools assist; human decides
+TSK-115,ITO-002,Capacity planning,Analysis,0.1,True,True,0.72,True,ML-based forecasting
+TSK-116,MKT-001,Blog / article writing,Creative,0.35,False,True,0.55,True,GenAI drafts; human edits & decides
+TSK-117,MKT-001,Social media content creation,Creative,0.25,True,True,0.7,True,High AI confidence for standard posts
+TSK-118,MKT-001,Email copy & campaign writing,Creative,0.2,True,True,0.72,True,AI personalisation at scale
+TSK-119,MKT-001,SEO research & optimisation,Analysis,0.12,True,True,0.75,True,AI SEO tools mature
+TSK-120,MKT-001,Brand tone & creative strategy,Decision,0.08,False,True,0.2,False,Requires human creative judgment
+TSK-121,MKT-002,Campaign performance analysis,Analysis,0.35,True,True,0.78,True,AI-driven attribution
+TSK-122,MKT-002,A/B test design & analysis,Analysis,0.25,False,True,0.5,True,AI optimises; human interprets
+TSK-123,MKT-002,Paid media bid management,Data entry,0.2,True,False,0.85,True,Programmatic advertising
+TSK-124,MKT-002,Reporting & dashboard creation,Data entry,0.12,True,False,0.82,True,BI automation
+TSK-125,MKT-002,Audience segmentation,Analysis,0.08,True,True,0.75,True,ML clustering
+TSK-126,MKT-003,Marketing strategy development,Decision,0.3,False,True,0.15,True,AI provides insights; human decides
+TSK-127,MKT-003,Campaign planning & execution,Creative,0.25,False,True,0.3,True,AI assists with personalisation
+TSK-128,MKT-003,Agency & vendor management,Communication,0.2,False,False,0.08,False,Relationship management
+TSK-129,MKT-003,Budget allocation & tracking,Data entry,0.15,True,True,0.7,True,AI-driven attribution and budgeting
+TSK-130,MKT-003,Market research & competitive analysis,Analysis,0.1,True,True,0.65,True,AI web scraping & synthesis
+TSK-131,PRD-001,Product strategy & roadmap planning,Decision,0.3,False,True,0.12,True,Strategic judgment essential
+TSK-132,PRD-001,Customer & user research,Analysis,0.25,False,True,0.35,True,AI summarises interviews; human interprets
+TSK-133,PRD-001,Requirement writing & PRDs,Creative,0.2,False,True,0.45,True,AI drafts; human owns
+TSK-134,PRD-001,Sprint planning & backlog grooming,Analysis,0.15,False,True,0.3,True,AI prioritises; PM decides
+TSK-135,PRD-001,Stakeholder alignment & communication,Communication,0.1,False,False,0.08,False,Relationship & leadership
+TSK-136,PRD-002,User research & usability testing,Analysis,0.3,False,True,0.3,True,AI synthesises; human empathises
+TSK-137,PRD-002,Wireframing & prototyping,Creative,0.3,False,True,0.4,True,AI design tools (Figma AI)
+TSK-138,PRD-002,Design system maintenance,Data entry,0.2,True,True,0.65,True,AI generates variants
+TSK-139,PRD-002,Accessibility review,Compliance,0.1,True,True,0.72,True,Automated accessibility checkers
+TSK-140,PRD-002,Stakeholder design reviews,Communication,0.1,False,False,0.1,False,Collaborative judgment
+TSK-141,PRD-003,API & technical documentation,Creative,0.35,True,True,0.68,True,AI generates doc from code comments
+TSK-142,PRD-003,User guides & help centre content,Creative,0.3,True,True,0.72,True,GenAI high confidence
+TSK-143,PRD-003,Content review & editing,Analysis,0.2,False,True,0.45,True,AI flags issues; human edits
+TSK-144,PRD-003,Doc structure & information architecture,Creative,0.1,False,True,0.3,True,Creative judgment
+TSK-145,PRD-003,SME interviews & knowledge capture,Communication,0.05,False,True,0.2,True,AI transcribes; human interviews

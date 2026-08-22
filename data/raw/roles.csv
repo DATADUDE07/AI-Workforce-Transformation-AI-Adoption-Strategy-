@@ -1,0 +1,30 @@
+role_id,role_name,function,role_level,avg_annual_salary_usd,num_employees,task_repetitiveness_pct,decision_intensity,customer_impact,regulatory_sensitivity,skill_complexity,current_error_rate_pct,ai_maturity_readiness,hours_per_week
+ENG-001,Software Engineer,Engineering,Mid,130000,420,0.28,0.7,0.3,0.2,0.88,0.08,0.82,40
+ENG-002,QA / Test Engineer,Engineering,Mid,105000,180,0.62,0.45,0.2,0.15,0.65,0.06,0.78,40
+ENG-003,DevOps / Platform Engineer,Engineering,Senior,140000,110,0.45,0.6,0.25,0.3,0.82,0.05,0.7,40
+DAT-001,Data Analyst,Data & Analytics,Mid,95000,150,0.55,0.55,0.2,0.25,0.7,0.07,0.8,40
+DAT-002,Data Scientist,Data & Analytics,Senior,135000,80,0.3,0.72,0.15,0.25,0.92,0.06,0.75,40
+DAT-003,BI / Reporting Analyst,Data & Analytics,Junior,78000,90,0.7,0.35,0.15,0.2,0.55,0.09,0.82,40
+FIN-001,Financial Analyst,Finance,Mid,100000,120,0.58,0.62,0.15,0.75,0.72,0.05,0.68,40
+FIN-002,Accounts Payable / Receivable Clerk,Finance,Junior,58000,85,0.88,0.18,0.1,0.65,0.3,0.12,0.85,40
+FIN-003,Payroll Specialist,Finance,Junior,62000,45,0.82,0.22,0.12,0.8,0.38,0.04,0.78,40
+FIN-004,FP&A Manager,Finance,Manager,145000,25,0.35,0.82,0.1,0.7,0.85,0.03,0.6,40
+HR-001,HR Business Partner,Human Resources,Senior,110000,40,0.3,0.78,0.6,0.55,0.68,0.05,0.5,40
+HR-002,Recruiter / Talent Acquisition,Human Resources,Mid,85000,65,0.52,0.6,0.7,0.4,0.55,0.08,0.65,40
+HR-003,HR Operations / Admin,Human Resources,Junior,55000,50,0.78,0.22,0.35,0.45,0.32,0.1,0.72,40
+SAL-001,Account Executive (Enterprise),Sales,Senior,155000,200,0.22,0.8,0.9,0.2,0.72,0.05,0.55,40
+SAL-002,Sales Development Rep (SDR),Sales,Junior,68000,180,0.65,0.38,0.72,0.1,0.38,0.1,0.7,40
+SAL-003,Sales Operations Analyst,Sales,Mid,88000,45,0.6,0.45,0.2,0.15,0.58,0.07,0.75,40
+CS-001,Customer Support Agent (Tier 1),Customer Success,Junior,52000,320,0.72,0.28,0.92,0.2,0.28,0.12,0.88,40
+CS-002,Customer Success Manager,Customer Success,Mid,92000,110,0.32,0.7,0.88,0.15,0.62,0.06,0.58,40
+CS-003,Technical Support Specialist (Tier 2),Customer Success,Mid,72000,140,0.5,0.52,0.8,0.18,0.58,0.09,0.72,40
+LEG-001,Contract / Paralegal Specialist,Legal,Mid,82000,35,0.58,0.55,0.2,0.9,0.7,0.04,0.62,40
+LEG-002,Corporate Counsel,Legal,Director,210000,15,0.18,0.92,0.3,0.95,0.95,0.02,0.4,40
+ITO-001,IT Help Desk / Support,IT Operations,Junior,58000,95,0.7,0.3,0.6,0.2,0.38,0.1,0.82,40
+ITO-002,Systems / Network Administrator,IT Operations,Mid,95000,60,0.5,0.55,0.3,0.4,0.68,0.06,0.65,40
+MKT-001,Content Writer / Copywriter,Marketing,Mid,75000,55,0.48,0.52,0.55,0.15,0.58,0.07,0.88,40
+MKT-002,Digital Marketing Analyst,Marketing,Mid,82000,40,0.6,0.48,0.4,0.12,0.55,0.08,0.8,40
+MKT-003,Brand / Marketing Manager,Marketing,Manager,120000,22,0.25,0.78,0.6,0.12,0.72,0.05,0.55,40
+PRD-001,Product Manager,Product,Senior,145000,70,0.22,0.85,0.65,0.2,0.82,0.05,0.52,40
+PRD-002,UX / Product Designer,Product,Mid,110000,55,0.32,0.68,0.7,0.1,0.75,0.06,0.65,40
+PRD-003,Technical Writer,Product,Mid,88000,30,0.55,0.42,0.45,0.15,0.55,0.07,0.85,40
